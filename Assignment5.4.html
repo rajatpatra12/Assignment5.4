@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    
+    <title>assignmen4</title>
+</head>
+<body>
+   
+    <script type="text/javascript">
+        /* Define the constructor */
+        function Employee(UserName,Skills,Salary)
+        {
+            this.UserName =UserName;
+            this.Skills = Skills;
+            this.Salary = Salary;        
+            
+        }
+        /*Assign value to the constructor  and display output*/
+        var printDetails = new Employee('rajat', 'Front-End Development', '40000')
+        alert(printDetails.UserName);
+        alert(printDetails.Skills);
+        alert(printDetails.Salary);
+        /* Update the value of salary and display */
+        var changSalary =  printDetails.Salary = '50000';
+        alert(changSalary);
+        
+       
+       </script>
+
+
+</body>
+</html>
